@@ -1,11 +1,11 @@
 let number=13;
-counter=0;
+count=0;
 for(i=0;i<=number;i++){
 if(number%i==0){
-counter++
+count++
 }
-}if(counter==2){
-console.log("Prime")
+}if(count==2){
+console.log("Prime number")
 }else{
-console.log("Not Prime")
+console.log("Not Prime number")
 }
