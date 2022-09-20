@@ -1,10 +1,10 @@
-let x=13;
-count=0;
-for(i=0;i<=x;i++){
-if(x%i==0){
-count++
+let number=13;
+counter=0;
+for(i=0;i<=number;i++){
+if(number%i==0){
+counter++
 }
-}if(count=2){
+}if(counter==2){
 console.log("Prime")
 }else{
 console.log("Not Prime")
